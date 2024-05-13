@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pictures/style.css"
+    
+
+
+
+</head>
+<body>
+
+
+
+<header>
+
+    <a href="#" class="logo"<a>Your cruise!</a>
+
+    <nav>
+        <ul>
+            <li><a href="#">Підтримка</a>
+                <ul>
+                    <li><a href="rules.html">Правила безпеки</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="#">Магазин</a>
+                <ul>
+                    <li><a href="#">Для подорожі</a></li>
+                    <li><a href="tickets.html">Квитки</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="profile.html">Ваш профіль</a></li>
+        </ul>
+    </nav>
+<div class="list_category">
+    <div class="category">
+        <img src="pictures/photo_2024-05-13_11-28-29.jpg" alt width="100px" height="100px">
+        <button type="button" onclick="location.href='https://docs.google.com/document/d/1GaawGaVE_Lqi0AmoJ429RgqPFPEOalf5/edit'">Забронювати готель</button>
+            
+    </div>
+
+    <div class="category">
+        <img src="pictures/photo_2024-05-13_11-28-13.jpg" alt width="100px" height="100px">
+        <button type="button" onclick="location.href='https://docs.google.com/document/d/1GaawGaVE_Lqi0AmoJ429RgqPFPEOalf5/edit'">Купити квиток</button>
+            
+    </div>
+
+    <div class="category">
+        <img src="pictures/photo_2024-05-13_11-28-23.jpg" alt width="100px" height="100px">
+        <button type="button" onclick="location.href='https://docs.google.com/document/d/1GaawGaVE_Lqi0AmoJ429RgqPFPEOalf5/edit'">Для сім'ї</button>
+            
+    </div>
+
+    
+</div>
+
+
+</header> 
+<style>
+    
+    .list_category{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #0a0101;
+            margin: 0 auto;
+            padding: 60px;
+            text-align: center;
+            float: left;
+        }
+        .category{
+            margin: 0 auto;
+            padding: 30px;
+            text-align: center;
+            width: 600px;
+            float: left;
+        }
+        
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+    }
+
+    button{
+
+        padding: 1rem 3rem;
+        border: none;
+        outline: none;
+        background: yellow;
+        color: #0a0101;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    button::before{
+        position: absolute;
+        content: '';
+        display: block;
+        background: #0a0101;
+        padding-top: 100%;
+        padding-right: 110%;
+        margin-left: -3rem !important;
+        margin-top: -8rem;
+        opacity: 0;
+        transition: all .8s;
+
+    }
+
+    button:active::before{
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+
+
+    
+</style>
+
+
+
+
+
+
+</body>
+</html>
+            
+
